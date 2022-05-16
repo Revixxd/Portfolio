@@ -1,0 +1,15 @@
+.skillDiv{
+    padding: 10px;
+    border: solid 2px black;
+
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.skillDiv--skills{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
