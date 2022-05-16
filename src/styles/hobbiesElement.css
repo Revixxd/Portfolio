@@ -1,0 +1,10 @@
+.hobbiesElement{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.hobbiesElement--infoDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
