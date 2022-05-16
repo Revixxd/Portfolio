@@ -4,7 +4,7 @@ import data from "./data/data"
 
 import BasicInfo from "./components/BasicInfo"
 import Skills from "./components/Skills"
-import Description from "./components/Description"
+import Projects from "./components/Projects"
 
 import "./styles/app.css"
 
@@ -17,10 +17,10 @@ function App() {
 
       <BasicInfo array = {importedData.basicInfo}/>
 
-      <Skills name = "Front-end" array = {importedData.skillsFront}/>
-      <Skills name = "Skills" array = {importedData.skillsTech}/>
+      <Skills name = "Front-end" array = {importedData.skillsFront} />
+      <Skills name = "Skills" array = {importedData.skillsTech} />
 
-      
+      <Projects />
 
     </div>
 
