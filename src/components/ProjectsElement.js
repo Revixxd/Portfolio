@@ -13,20 +13,31 @@ function ProjectsElement(){
 
             </div>
             <div className="projectElementsDiv--info">
+
                 <div className="projectElementsDiv__info--hastag">
-                    <p>#Html</p>
-                    <p>#CSS</p>
-                    <p>#responsive</p>
+                    <h6>#Html</h6>
+                    <h6>#CSS</h6>
+                    <h6>#responsive</h6>
                 </div>
-                <div className="projectElementsDiv__info--projectName">
-                    <h2>Recipe Blog</h2>
+
+
+                <div className="projectElementsDiv__info--mainDescription">
+
+                    <div className="projectElementsDiv__info__mainDescription--projectName">
+                        <h2>Recipe Blog</h2>
+                    </div>
+
+                    <div className="projectElementsDiv__info__mainDescription--description">
+                        <p>In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. </p>
+                    </div>
+
                 </div>
-                <div className="projectElementsDiv__info--description">
-                    <p>In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. </p>
-                </div>
-                <div className="projectElementsDiv__info--buttons" >
-                    <buton>Demo</buton>
-                    <buton>Code</buton>
+
+                
+
+                <div className="projectElementsDiv__info--buttonsDiv" >
+                    <button>Demo</button>
+                    <button>Code</button>
                 </div>
             </div>
 

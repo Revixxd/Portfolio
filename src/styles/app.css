@@ -4,7 +4,7 @@ body{
 }
 
 body img{
-    border-radius: 12px;
+    border-radius: 10px;
 }
 .container{
     margin-top: 5vh;
@@ -32,7 +32,44 @@ body img{
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 1rem;
+    grid-gap: 1.2rem;
+}
+
+h1{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 16px;
+}
+
+h4{
+    font-weight: 500;
+    color: #828282;
+    font-size: 12px;
+}
+
+h5{
+
+}
+
+h6{
+    font-size: 11px;
+}
+
+a{
+    color: #828282;
+}
+
+p{
+    color: #828282;
+    font-size: 12px;
 }
 
 

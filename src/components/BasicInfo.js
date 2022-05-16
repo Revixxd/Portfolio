@@ -19,7 +19,7 @@ function BasicInfo(props){
             <div className="BasicInfoDiv--bottomInfo">
 
                 <div className="BasicInfoDiv__bottomInfo--name" >
-                    <h3>{props.array.name}</h3>
+                    <h1>{props.array.name}</h1>
                     <h4>Front-end Developer</h4>
                 </div>
                 
