@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom/client'
 
 function SkillsElement(props){
     return(
-        <h3>{props.item}</h3>
+        <h4>{props.item}</h4>
     )
 }
 

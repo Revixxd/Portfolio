@@ -1,5 +1,8 @@
 import React from "react";
-import ReactDOM from 'react-dom/client'
+import { FaHeart } from 'react-icons/fa';
+import { GrMail } from 'react-icons/gr';
+import { BsFillTelephoneFill } from 'react-icons/bs';
+
 
 
 
@@ -11,21 +14,28 @@ function BasicInfo(props){
     return(
         <div className="BasicInfoDiv">
             <div className="BasicInfoDiv--ImageDiv">
-                <img alt = "photo" src="https://picsum.photos/300/300" />
+                <img alt = "photo" src="https://picsum.photos/400/400" />
             </div>
             <div className="BasicInfoDiv--bottomInfo">
 
-                <div>
-                    <h2>{props.array.name}</h2>
-                    <h3>Front-end Developer</h3>
+                <div className="BasicInfoDiv__bottomInfo--name" >
+                    <h3>{props.array.name}</h3>
+                    <h4>Front-end Developer</h4>
                 </div>
                 
-                <div>
-                    <h4>{props.array.email}</h4>
-                    <h4>{props.array.phoneNumber}</h4>
+                <div className="BasicInfoDiv__bottomInfo--contact" >
+                    <div className="BasicInfoDiv__bottomInfo__contact--element">
+                        <GrMail />
+                        <h5>{props.array.email}</h5>
+                    </div>
+                    <div className="BasicInfoDiv__bottomInfo__contact--element">
+                        <BsFillTelephoneFill />
+                        <h5>{props.array.phoneNumber}</h5>
+                    </div>
+
                 </div>
-                <div>   
-                    <h5>{props.array.desciption}</h5>
+                <div className="BasicInfoDiv__bottomInfo--description">   
+                    <p>{props.array.desciption}</p>
                 </div>
 
                 

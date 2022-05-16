@@ -21,16 +21,16 @@ function App() {
 
       <BasicInfo array = {importedData.basicInfo}/>
 
-      <Skills name = "Front-end" array = {importedData.skillsFront} />
-      <Skills name = "Skills" array = {importedData.skillsTech} />
+      <Skills name = "SKILLS" array = {importedData.skillsTech} />
+      <Skills name = "FRONT-END" array = {importedData.skillsFront} />
 
       <Projects />
 
       <Hobbies />
 
-      </div>
+    </div>
 
-      <Footer />
+    <Footer />
       
     </div>
 

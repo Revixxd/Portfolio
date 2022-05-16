@@ -6,13 +6,21 @@
     padding: 20px;
     width: 100%;
     /* max-width: 300px; */
-    border: solid rgb(0, 0, 0);
 
     display: flex;
     flex-direction: column;
     align-items: center;
     gap:10px
 }
+
+.BasicInfoDiv h3{
+    font-weight: 600;
+}
+.BasicInfoDiv h4{
+    font-weight: 500;
+    color: #828282;
+}
+
 
 .BasicInfoDiv--ImageDiv img{
     max-width: 100%;
@@ -25,4 +33,26 @@
     gap: 10px;
 }
 
+.BasicInfoDiv__bottomInfo--name{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
 
+.BasicInfoDiv__bottomInfo--contact{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.BasicInfoDiv__bottomInfo__contact--element{
+    display: flex;
+    gap: 10px;
+
+    
+}
+
+.BasicInfoDiv__bottomInfo--description p{
+    color: #828282;
+    font-size: 12px;
+}

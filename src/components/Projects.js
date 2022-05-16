@@ -10,9 +10,12 @@ function Projects(){
             <div className = "projectsDiv--titileDiv">
                 <h3>Projects (3)</h3>    
             </div>
-            <ProjectsElement />
-            <ProjectsElement />
-            <ProjectsElement />
+            <div className = "projectsDiv--elements">
+                <ProjectsElement />
+                <ProjectsElement />
+                <ProjectsElement />
+            </div>
+            
         </div>
         
     )

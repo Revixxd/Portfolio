@@ -1,6 +1,5 @@
 .skillDiv{
-    padding: 10px;
-    border: solid 2px black;
+    padding: 15px;
 
     display: flex;
     flex-direction: column;
@@ -10,6 +9,14 @@
 .skillDiv--skills{
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 10px;
 
+}
+
+.skillDiv h3{
+    font-size: 14px;
+    font-weight: bold;
+}
+.skillDiv h4{
+    font-size: 12px;
 }
