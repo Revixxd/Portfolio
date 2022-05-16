@@ -4,7 +4,11 @@ import ProjectsElement from "./ProjectsElement";
 
 import "../styles/projects.css"
 
-function Projects(){
+function Projects(props){
+    console.log(props.array)
+
+    
+
     return(
         <div className="projectsDiv">
             <div className = "projectsDiv--titileDiv">

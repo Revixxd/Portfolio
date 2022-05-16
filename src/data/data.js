@@ -21,22 +21,71 @@ export default [
             "Visual Studio Code",
             
         ],
+
+        hobbies:{
+            Programing:{
+                name:"Programing",
+                desciption:""
+            },
+            FormulaOne:{
+                name:"FormulaOne",
+                desciption:""
+            },
+            
+        },
+
+        projects: {
+            edieHomePage:{
+                tags:[
+                    "#HTML",
+                    "#CSS",
+                    "#RESPONSIVE",
+                ],
+                imgSource: "",
+                projectName:"Edie Homepage",
+                description:"",
+                demoSource: "https://revixxd.github.io/Edie-Homepage/",
+                repoSource: "https://github.com/Revixxd/Edie-Homepage"
+            },
+            interiorConsultant:{
+                tags:[
+                    "#HTML",
+                    "#JAVASCRIPT",
+                ],
+                imgSource: "",
+                projectName:"Interior Consultant",
+                description:"",
+                demoSource: "https://revixxd.github.io/Interior-consultant/",
+                repoSource: "https://github.com/Revixxd/Interior-consultant"
+            },
+            toDoList:{
+                tags:[
+                    "#HTML",
+                    "#CSS",
+                    "#RESPONSIVE",
+                ],
+                imgSource: "",
+                projectName:"Vanila JavaScript to do list",
+                description:"",
+                demoSource: "https://revixxd.github.io/Basic-to-do-list/",
+                repoSource: "https://github.com/Revixxd/Basic-to-do-list"
+            }
+            
+        }
+            
         
     }
 ]
     
-// },
-// skillsFront: [
-//     "Html",
-//     "CSS",
-//     "JavaScript",
-//     "React",
 
-// ],
-// skillsDesign: {
-//     name: "Adam Myślicki",
-//     avatarPhoto: "",
-//     email:"",
-//     phoneNumber:"",
-//     desciption:"",
-// },
+
+// tags:[
+                //     "#HTML",
+                //     "#CSS",
+                //     "#RESPONSIVE",
+                // ],
+                // imgSource: "",
+                // projectName:"",
+                // description:"",
+                // demoSource: "",
+                // repoSource: ""

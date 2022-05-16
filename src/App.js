@@ -24,9 +24,9 @@ function App() {
       <Skills name = "SKILLS" array = {importedData.skillsTech} />
       <Skills name = "FRONT-END" array = {importedData.skillsFront} />
 
-      <Projects />
+      <Projects array = {importedData.projects} />
 
-      <Hobbies />
+      <Hobbies array = {importedData.hobbies} />
 
     </div>
 
