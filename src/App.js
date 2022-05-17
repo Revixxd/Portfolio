@@ -11,7 +11,7 @@ import Footer from "./components/Footer"
 import "./styles/app.css"
 
 function App() {
-    const importedData = data[0]
+
 
   return (
 
@@ -19,14 +19,14 @@ function App() {
 
       <div className="gridContainer">
 
-      <BasicInfo array = {importedData.basicInfo}/>
+      <BasicInfo array = {data.basicInfo}/>
 
-      <Skills name = "SKILLS" array = {importedData.skillsTech} />
-      <Skills name = "FRONT-END" array = {importedData.skillsFront} />
+      <Skills name = "SKILLS" array = {data.skillsTech} />
+      <Skills name = "FRONT-END" array = {data.skillsFront} />
 
-      <Projects array = {importedData.projects} />
+      <Projects array = {data.projects} />
 
-      <Hobbies array = {importedData.hobbies} />
+      <Hobbies array = {data.hobbies} />
 
     </div>
 

@@ -1,34 +1,36 @@
 import React from "react"
 
+import ProjectsElementHash from "./ProjectElementHash"
+
 import "../styles/projectElements.css"
 
-function ProjectsElement(){
+function ProjectsElement(props){
 
     return(
         <div className="projectElementsDiv">
 
             <div className="projectElementsDiv-imgDiv">
 
-            <img alt="projectImg" src="https://picsum.photos/200/200"></img>
+                <img alt="projectImg" src="https://picsum.photos/200/200"></img>
 
             </div>
             <div className="projectElementsDiv--info">
 
                 <div className="projectElementsDiv__info--hastag">
-                    <h6>#Html</h6>
+                    <h6>#HTML</h6>
                     <h6>#CSS</h6>
-                    <h6>#responsive</h6>
+                    <h6>#JavaScript</h6>
                 </div>
 
 
                 <div className="projectElementsDiv__info--mainDescription">
 
                     <div className="projectElementsDiv__info__mainDescription--projectName">
-                        <h2>Recipe Blog</h2>
+                        <h2>{props.array.projectName}</h2>
                     </div>
 
                     <div className="projectElementsDiv__info__mainDescription--description">
-                        <p>In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. </p>
+                        <p>{props.array.description} </p>
                     </div>
 
                 </div>
@@ -36,8 +38,8 @@ function ProjectsElement(){
                 
 
                 <div className="projectElementsDiv__info--buttonsDiv" >
-                    <button>Demo</button>
-                    <button>Code</button>
+                    <a className="projectElementsDiv__info__buttonsDiv-aElement" target="_blank" href={props.array.demoSource}>Demo</a>
+                    <a className="projectElementsDiv__info__buttonsDiv-aElement" target="_blank" href={props.array.repoSource}>Code</a>
                 </div>
             </div>
 

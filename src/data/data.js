@@ -1,5 +1,4 @@
-export default [
-    {
+export default {
         basicInfo: {
             name: "Adam Myślicki",
             avatarPhoto: "",
@@ -22,20 +21,9 @@ export default [
             
         ],
 
-        hobbies:{
-            Programing:{
-                name:"Programing",
-                desciption:""
-            },
-            FormulaOne:{
-                name:"FormulaOne",
-                desciption:""
-            },
-            
-        },
-
         projects: {
             edieHomePage:{
+                id:"1",
                 tags:[
                     "#HTML",
                     "#CSS",
@@ -43,22 +31,24 @@ export default [
                 ],
                 imgSource: "",
                 projectName:"Edie Homepage",
-                description:"",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt purus vel ante pretium vulputate. Vestibulum accumsan leo at enim ultrices vulputate. Nullam eu varius mauris. Phasellus iaculis nunc quam, at pretium libero molestie ac. Curabitur egestas molestie augue, sed lobortis enim mattis a.",
                 demoSource: "https://revixxd.github.io/Edie-Homepage/",
-                repoSource: "https://github.com/Revixxd/Edie-Homepage"
+                repoSource: "https://github.com/Revixxd/Edie-Homepage"            
             },
             interiorConsultant:{
+                id:"2",
                 tags:[
                     "#HTML",
                     "#JAVASCRIPT",
                 ],
                 imgSource: "",
                 projectName:"Interior Consultant",
-                description:"",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt purus vel ante pretium vulputate. Vestibulum accumsan leo at enim ultrices vulputate. Nullam eu varius mauris. Phasellus iaculis nunc quam, at pretium libero molestie ac. Curabitur egestas molestie augue, sed lobortis enim mattis a.",
                 demoSource: "https://revixxd.github.io/Interior-consultant/",
                 repoSource: "https://github.com/Revixxd/Interior-consultant"
             },
             toDoList:{
+                id:"3",
                 tags:[
                     "#HTML",
                     "#CSS",
@@ -66,16 +56,13 @@ export default [
                 ],
                 imgSource: "",
                 projectName:"Vanila JavaScript to do list",
-                description:"",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt purus vel ante pretium vulputate. Vestibulum accumsan leo at enim ultrices vulputate. Nullam eu varius mauris. Phasellus iaculis nunc quam, at pretium libero molestie ac. Curabitur egestas molestie augue, sed lobortis enim mattis a.",
                 demoSource: "https://revixxd.github.io/Basic-to-do-list/",
                 repoSource: "https://github.com/Revixxd/Basic-to-do-list"
             }
-            
         }
-            
         
-    }
-]
+}
     
 
 
@@ -89,3 +76,19 @@ export default [
                 // description:"",
                 // demoSource: "",
                 // repoSource: ""
+
+
+
+        //         ,
+        //     interiorConsultant:{
+        //     tags:[
+        //         "#HTML",
+        //         "#JAVASCRIPT",
+        //     ],
+        //     imgSource: "",
+        //     projectName:"Interior Consultant",
+        //     description:"",
+        //     demoSource: "https://revixxd.github.io/Interior-consultant/",
+        //     repoSource: "https://github.com/Revixxd/Interior-consultant"
+        //     },
+        //     
