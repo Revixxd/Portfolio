@@ -2,15 +2,19 @@ import React from "react";
 
 import "../styles/hobbiesElement.css"
 
-function HobbiesElement(){
+function HobbiesElement(props){
+
     return(
         <div className="hobbiesElement">
-            <img alt = "photo" src="https://picsum.photos/350/100" />
+            <div className="hobbiesElement-imgDiv" >
+                <img alt = "photo" src={props.array.imgSource} />
+            </div>
+            
 
             <div className="hobbiesElement--infoDiv">
 
-            <h3>Gaming</h3>
-            <p>Quisque feugiat malesuada molestie.</p>
+            <h3>{props.array.name}</h3>
+            {/* <p>{props.array.desciption}</p> */}
 
             </div>
         </div>

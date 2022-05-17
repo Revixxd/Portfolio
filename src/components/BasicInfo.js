@@ -1,5 +1,4 @@
 import React from "react";
-import { FaHeart } from 'react-icons/fa';
 import { GrMail } from 'react-icons/gr';
 import { BsFillTelephoneFill } from 'react-icons/bs';
 
@@ -14,7 +13,7 @@ function BasicInfo(props){
     return(
         <div className="BasicInfoDiv">
             <div className="BasicInfoDiv--ImageDiv">
-                <img alt = "photo" src="https://picsum.photos/400/400" />
+                <img alt = "photo" src={props.array.photoSrc} />
             </div>
             <div className="BasicInfoDiv--bottomInfo">
 

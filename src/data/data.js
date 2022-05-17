@@ -1,10 +1,10 @@
 export default {
         basicInfo: {
             name: "Adam Myślicki",
-            avatarPhoto: "",
+            photoSrc: "https://i.imgur.com/9pbWL5A.png",
             email:"Amyslicki2002@gmail.com",
             phoneNumber:"668 244 841",
-            desciption:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non elit neque. Aliquam erat volutpat. Duis vel est quis arcu egestas sodales non at urna. Suspendisse fringilla metus a ipsum dictum congue. Sed sed felis nec diam facilisis accumsan. Donec tincidunt enim eu sagittis eleifend.",
+            desciption:"I am a first-year student of the Wrocław University of Technology. Currently, I am developing my skills, creating new website projects, knowledge of C ++ and React. I am characterized by skills such as teamwork, attention to detail and punctuality.",
         },
         skillsFront: [
             "HTML5",
@@ -21,6 +21,19 @@ export default {
             
         ],
 
+        hobbies:{
+            programing:{
+                name: "Programing",
+                imgSource: "https://thumbs.dreamstime.com/b/programming-code-typing-coding-hacker-concept-programming-code-typing-coding-hacker-concept-business-ai-124110546.jpg",
+                desciption: "programing",
+            },
+            formulaOne:{
+                name: "FormulaOne",
+                imgSource: "https://powrotroberta.pl/wp-content/uploads/2022/02/FLKoX0_XMAsXPdN-1024x576.jpg",
+                desciption: "formulaOne",
+            }
+        },
+
         projects: {
             edieHomePage:{
                 id:"1",
@@ -29,9 +42,9 @@ export default {
                     "#CSS",
                     "#RESPONSIVE",
                 ],
-                imgSource: "",
+                imgSource: "https://i.imgur.com/IyX33br.png",
                 projectName:"Edie Homepage",
-                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt purus vel ante pretium vulputate. Vestibulum accumsan leo at enim ultrices vulputate. Nullam eu varius mauris. Phasellus iaculis nunc quam, at pretium libero molestie ac. Curabitur egestas molestie augue, sed lobortis enim mattis a.",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt purus vel ante pretium vulputate. Vestibul",
                 demoSource: "https://revixxd.github.io/Edie-Homepage/",
                 repoSource: "https://github.com/Revixxd/Edie-Homepage"            
             },
@@ -41,26 +54,15 @@ export default {
                     "#HTML",
                     "#JAVASCRIPT",
                 ],
-                imgSource: "",
+                imgSource: "https://i.imgur.com/7xRRuCh.png",
                 projectName:"Interior Consultant",
-                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt purus vel ante pretium vulputate. Vestibulum accumsan leo at enim ultrices vulputate. Nullam eu varius mauris. Phasellus iaculis nunc quam, at pretium libero molestie ac. Curabitur egestas molestie augue, sed lobortis enim mattis a.",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt purus vel ante pretium vulputate. Vestibulum ac",
                 demoSource: "https://revixxd.github.io/Interior-consultant/",
                 repoSource: "https://github.com/Revixxd/Interior-consultant"
             },
-            toDoList:{
-                id:"3",
-                tags:[
-                    "#HTML",
-                    "#CSS",
-                    "#RESPONSIVE",
-                ],
-                imgSource: "",
-                projectName:"Vanila JavaScript to do list",
-                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt purus vel ante pretium vulputate. Vestibulum accumsan leo at enim ultrices vulputate. Nullam eu varius mauris. Phasellus iaculis nunc quam, at pretium libero molestie ac. Curabitur egestas molestie augue, sed lobortis enim mattis a.",
-                demoSource: "https://revixxd.github.io/Basic-to-do-list/",
-                repoSource: "https://github.com/Revixxd/Basic-to-do-list"
-            }
-        }
+            
+        },
+        
         
 }
     

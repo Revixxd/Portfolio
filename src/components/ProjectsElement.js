@@ -9,11 +9,13 @@ function ProjectsElement(props){
     return(
         <div className="projectElementsDiv">
 
-            <div className="projectElementsDiv-imgDiv">
+            <div className="projectElementsDiv--imgDiv">
 
-                <img alt="projectImg" src="https://picsum.photos/200/200"></img>
+                <img className = "projectElementsDiv--img" alt="projectImg" src={props.array.imgSource}
+                ></img>
 
             </div>
+
             <div className="projectElementsDiv--info">
 
                 <div className="projectElementsDiv__info--hastag">
