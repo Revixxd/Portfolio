@@ -6,11 +6,19 @@ Project built on the basis of [devChallenges.io](https://devchallenges.io/challe
 
 ## Screenshots
 
+
+
+
 Desktop:
 ![App Screenshot](https://i.imgur.com/iBqdpuu.jpg)
 Mobile:
-![App Screenshot](https://i.imgur.com/Vee9Jeg.jpg)
+<p align="center">
+  <img width="460" height="100%" src="https://i.imgur.com/Vee9Jeg.jpg">
+</p>
 
+## Lessons Learned
+
+During this project i learned how to use component property and using data from JSON file
 
 ## Roadmap
 
@@ -23,8 +31,3 @@ Mobile:
 - Dark mode
 
 - on load animatons 
-
-
-## Lessons Learned
-
-During this project i learned how to use component property and using data from JSON file
