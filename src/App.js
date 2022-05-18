@@ -10,6 +10,7 @@ import Footer from "./components/Footer"
 
 import "./styles/app.css"
 
+
 function App() {
 
 
@@ -25,6 +26,7 @@ function App() {
       <Skills name = "FRONT-END" array = {data.skillsFront} />
 
       <Projects array = {data.projects} />
+      {/* <Projects array = {data.projects} /> */}
 
       <Hobbies array = {data.hobbies} />
 

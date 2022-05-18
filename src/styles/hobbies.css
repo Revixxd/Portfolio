@@ -3,5 +3,11 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    grid-column-start: 1;
+    grid-row-start: 3;
 }
-
+@media only screen and (max-width: 1000px) {
+    .hobbiesDiv{
+        grid-column: span 2;
+    }
+}

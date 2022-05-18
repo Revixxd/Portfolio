@@ -35,6 +35,13 @@ body img{
     grid-gap: 1.2rem;
 }
 
+@media only screen and (max-width: 1000px) {
+    .gridContainer{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
 h1{
     font-size: 24px;
     font-weight: 600;
