@@ -24,12 +24,12 @@ export default {
         hobbies:{
             programing:{
                 name: "Programing",
-                imgSource: "https://thumbs.dreamstime.com/b/programming-code-typing-coding-hacker-concept-programming-code-typing-coding-hacker-concept-business-ai-124110546.jpg",
+                imgSource: "https://i.imgur.com/WqeI5hx.jpg",
                 desciption: "programing",
             },
             formulaOne:{
                 name: "FormulaOne",
-                imgSource: "https://powrotroberta.pl/wp-content/uploads/2022/02/FLKoX0_XMAsXPdN-1024x576.jpg",
+                imgSource: "https://i.imgur.com/g7LhD0X.jpg",
                 desciption: "formulaOne",
             }
         },
