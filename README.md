@@ -24,7 +24,7 @@ During this project i learned how to use component property and using data from 
 
 - Dark mode using [styling-components](https://styled-components.com)
 
-- on load animatons 
+- animatons 
 
 - Adding languages accessibility 
 
