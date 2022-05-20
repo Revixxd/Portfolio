@@ -22,12 +22,12 @@ During this project i learned how to use component property and using data from 
 
 ## Roadmap
 
-- Load data from github api for project component
+- Dark mode using [styling-components](https://styled-components.com)
 
-- Adding Wakatime component (linked with wakatime api) to show coding time and languages
+- on load animatons 
 
 - Adding languages accessibility 
 
-- Dark mode
+- Load data from github api for project component
 
-- on load animatons 
+- Adding Wakatime component (linked with wakatime api) to show coding time and languages
