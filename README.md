@@ -26,6 +26,8 @@ During this project i learned how to use component property and using data from 
 
 - Dark mode that depend on deafult system theme
 
+- Save darkMode when second Log
+
 - Load data from github api for project component
 
 - Adding Wakatime component (linked with wakatime api) to show coding time and languages
