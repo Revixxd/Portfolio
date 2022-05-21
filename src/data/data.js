@@ -44,7 +44,7 @@ export default {
                 ],
                 imgSource: "https://i.imgur.com/IyX33br.png",
                 projectName:"Edie Homepage",
-                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt purus vel ante pretium vulputate. Vestibul",
+                description:"Project made from figma project, where i combine, flex, grid and media. Using html and Css only. Page present imagined Edie company.",
                 demoSource: "https://revixxd.github.io/Edie-Homepage/",
                 repoSource: "https://github.com/Revixxd/Edie-Homepage"            
             },
@@ -56,7 +56,7 @@ export default {
                 ],
                 imgSource: "https://i.imgur.com/7xRRuCh.png",
                 projectName:"Interior Consultant",
-                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt purus vel ante pretium vulputate. Vestibulum ac",
+                description:"Project based on devchallenges.io",
                 demoSource: "https://revixxd.github.io/Interior-consultant/",
                 repoSource: "https://github.com/Revixxd/Interior-consultant"
             },
