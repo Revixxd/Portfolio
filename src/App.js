@@ -1,7 +1,8 @@
 import React from "react";
 
+//import data.js for infos 
 import data from "./data/data"
-
+//Components import
 import BasicInfo from "./components/BasicInfo"
 import Skills from "./components/Skills"
 import Projects from "./components/Projects"
@@ -10,11 +11,13 @@ import Footer from "./components/Footer"
 
 import "./styles/app.css"
 
+//styles for darkMode
 import { ThemeProvider } from "styled-components";
 import {lightTheme, darkTheme, GlobalStyles} from "./components/darkmode/themes"
 
 function App() {
 
+  //darkMode functions 
   const[theme, setTheme] = React.useState("dark")
 
   function changeTheme(){
