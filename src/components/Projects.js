@@ -4,17 +4,25 @@ import ProjectsElement from "./ProjectsElement";
 
 import "../styles/projects.css"
 
-function Projects(){
+function Projects(props){
+
+    
+
+
     return(
         <div className="projectsDiv">
-            <div className = "projectsDiv--titileDiv">
-                <h3>Projects (3)</h3>    
+            
+            <div className = "projectsDiv--titileDiv elementStyle">
+                {/* adding array.lenght */}
+                <h3>Projects ({Object.keys(props.array).length})</h3>    
             </div>
-            <ProjectsElement />
-            <ProjectsElement />
-            <ProjectsElement />
+
+            <div className = "projectsDiv--elements">
+                <ProjectsElement key = {props.array.edieHomePage.id} array={props.array.edieHomePage}/>
+                <ProjectsElement key = {props.array.interiorConsultant.id} array={props.array.interiorConsultant}/>
+            </div>
+            
         </div>
-        
     )
 }
 

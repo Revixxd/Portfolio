@@ -1,17 +1,18 @@
 import React from "react";
 
-import HobbiesElemet from "./HobbiesElement"
+import HobbiesElement from "./HobbiesElement"
 
 import "../styles/hobbies.css"
 
-function Hobbies(){
+function Hobbies(props){
+
+
 
     return(
-        <div className="hobbiesDiv">
+        <div className="hobbiesDiv elementStyle">
             <h2>Hobbies</h2>
-            <HobbiesElemet />
-            <HobbiesElemet />
-            <HobbiesElemet />
+            <HobbiesElement array = {props.array.programing} />
+            <HobbiesElement array = {props.array.formulaOne} />
         </div>
     )
 

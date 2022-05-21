@@ -1,11 +1,10 @@
-export default [
-    {
+export default {
         basicInfo: {
             name: "Adam Myślicki",
-            avatarPhoto: "",
+            photoSrc: "https://i.imgur.com/9pbWL5A.png",
             email:"Amyslicki2002@gmail.com",
-            phoneNumber:"668244841",
-            desciption:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non elit neque. Aliquam erat volutpat. Duis vel est quis arcu egestas sodales non at urna. Suspendisse fringilla metus a ipsum dictum congue. Sed sed felis nec diam facilisis accumsan. Donec tincidunt enim eu sagittis eleifend.",
+            phoneNumber:"668 244 841",
+            desciption:"I am a first-year student of the Wrocław University of Technology. Currently, I am developing my skills, creating new website projects, knowledge of C ++ and React. I am characterized by skills such as teamwork, attention to detail and punctuality.",
         },
         skillsFront: [
             "HTML5",
@@ -21,22 +20,77 @@ export default [
             "Visual Studio Code",
             
         ],
-        
-    }
-]
-    
-// },
-// skillsFront: [
-//     "Html",
-//     "CSS",
-//     "JavaScript",
-//     "React",
 
-// ],
-// skillsDesign: {
-//     name: "Adam Myślicki",
-//     avatarPhoto: "",
-//     email:"",
-//     phoneNumber:"",
-//     desciption:"",
-// },
+        hobbies:{
+            programing:{
+                name: "Programing",
+                imgSource: "https://i.imgur.com/WqeI5hx.jpg",
+                desciption: "programing",
+            },
+            formulaOne:{
+                name: "FormulaOne",
+                imgSource: "https://i.imgur.com/g7LhD0X.jpg",
+                desciption: "formulaOne",
+            }
+        },
+
+        projects: {
+            edieHomePage:{
+                id:"1",
+                tags:[
+                    "#HTML",
+                    "#CSS",
+                    "#RESPONSIVE",
+                ],
+                imgSource: "https://i.imgur.com/IyX33br.png",
+                projectName:"Edie Homepage",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt purus vel ante pretium vulputate. Vestibul",
+                demoSource: "https://revixxd.github.io/Edie-Homepage/",
+                repoSource: "https://github.com/Revixxd/Edie-Homepage"            
+            },
+            interiorConsultant:{
+                id:"2",
+                tags:[
+                    "#HTML",
+                    "#JAVASCRIPT",
+                ],
+                imgSource: "https://i.imgur.com/7xRRuCh.png",
+                projectName:"Interior Consultant",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt purus vel ante pretium vulputate. Vestibulum ac",
+                demoSource: "https://revixxd.github.io/Interior-consultant/",
+                repoSource: "https://github.com/Revixxd/Interior-consultant"
+            },
+            
+        },
+        
+        
+}
+    
+
+
+// tags:[
+                //     "#HTML",
+                //     "#CSS",
+                //     "#RESPONSIVE",
+                // ],
+                // imgSource: "",
+                // projectName:"",
+                // description:"",
+                // demoSource: "",
+                // repoSource: ""
+
+
+
+        //         ,
+        //     interiorConsultant:{
+        //     tags:[
+        //         "#HTML",
+        //         "#JAVASCRIPT",
+        //     ],
+        //     imgSource: "",
+        //     projectName:"Interior Consultant",
+        //     description:"",
+        //     demoSource: "https://revixxd.github.io/Interior-consultant/",
+        //     repoSource: "https://github.com/Revixxd/Interior-consultant"
+        //     },
+        //     

@@ -1,7 +1,8 @@
 import React from "react";
 
+//import data.js for infos 
 import data from "./data/data"
-
+//Components import
 import BasicInfo from "./components/BasicInfo"
 import Skills from "./components/Skills"
 import Projects from "./components/Projects"
@@ -10,29 +11,54 @@ import Footer from "./components/Footer"
 
 import "./styles/app.css"
 
+//styles for darkMode
+import { ThemeProvider } from "styled-components";
+import {lightTheme, darkTheme, GlobalStyles} from "./components/darkmode/themes"
+
+//icons
+import {AiOutlineArrowDown} from 'react-icons/ai'
 function App() {
-    const importedData = data[0]
+
+  //darkMode functions 
+  const[theme, setTheme] = React.useState("dark")
+
+  function changeTheme(){
+    theme === "light" ? setTheme("dark") : setTheme("light")
+  }
 
   return (
 
-    <div className="container">
+    <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
+      <GlobalStyles />
+      <div className="accessibilityDiv">
 
-      <div className="gridContainer">
+        <button onClick={changeTheme}>Theme</button>
+        {/* <button >Language</button> */}
+        {/* <br></br>
+        <button><AiOutlineArrowDown /></button> */}
 
-      <BasicInfo array = {importedData.basicInfo}/>
+      </div>
+      <div className="container">
+      
+        <div className="gridContainer">
 
-      <Skills name = "Front-end" array = {importedData.skillsFront} />
-      <Skills name = "Skills" array = {importedData.skillsTech} />
+        <BasicInfo array = {data.basicInfo}/>
 
-      <Projects />
+        <Skills name = "SKILLS" array = {data.skillsTech} />
+        <Skills name = "FRONT-END" array = {data.skillsFront} />
 
-      <Hobbies />
+        <Projects array = {data.projects} />
+        {/* <Projects array = {data.projects} /> */}
+
+        <Hobbies array = {data.hobbies} />
 
       </div>
 
       <Footer />
-      
-    </div>
+        
+      </div>
+
+    </ThemeProvider>
 
   )
 }

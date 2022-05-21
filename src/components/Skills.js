@@ -14,12 +14,15 @@ function Skills(props){
     })
 
     return(
-        <div className="skillDiv">
-            <h2>{props.name}</h2>
-            <div className="skillDiv--skills">
-                {elements}
+        <div>
+            <div className="skillDiv elementStyle">
+                <h2>{props.name}</h2>
+                <div className="skillDiv--skills">
+                    {elements}
+                </div>
             </div>
         </div>
+        
     )
 
 }

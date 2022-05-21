@@ -1,32 +1,47 @@
 import React from "react"
 
+import ProjectsElementHash from "./ProjectElementHash"
+
 import "../styles/projectElements.css"
 
-function ProjectsElement(){
+function ProjectsElement(props){
 
     return(
-        <div className="projectElementsDiv">
+        <div className="projectElementsDiv elementStyle">
 
-            <div className="projectElementsDiv-imgDiv">
+            <div className="projectElementsDiv--imgDiv">
 
-            <img alt="projectImg" src="https://picsum.photos/200/200"></img>
+                <img className = "projectElementsDiv--img" alt="projectImg" src={props.array.imgSource}
+                ></img>
 
             </div>
+
             <div className="projectElementsDiv--info">
+
                 <div className="projectElementsDiv__info--hastag">
-                    <p>#Html</p>
-                    <p>#CSS</p>
-                    <p>#responsive</p>
+                    <h6>#HTML</h6>
+                    <h6>#CSS</h6>
+                    <h6>#JavaScript</h6>
                 </div>
-                <div className="projectElementsDiv__info--projectName">
-                    <h2>Recipe Blog</h2>
+
+
+                <div className="projectElementsDiv__info--mainDescription">
+
+                    <div className="projectElementsDiv__info__mainDescription--projectName">
+                        <h2>{props.array.projectName}</h2>
+                    </div>
+
+                    <div className="projectElementsDiv__info__mainDescription--description">
+                        <p>{props.array.description} </p>
+                    </div>
+
                 </div>
-                <div className="projectElementsDiv__info--description">
-                    <p>In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. </p>
-                </div>
-                <div className="projectElementsDiv__info--buttons" >
-                    <buton>Demo</buton>
-                    <buton>Code</buton>
+
+                
+
+                <div className="projectElementsDiv__info--buttonsDiv" >
+                    <a className="projectElementsDiv__info__buttonsDiv-aElement" target="_blank" href={props.array.demoSource}>Demo</a>
+                    <a className="projectElementsDiv__info__buttonsDiv-aElement" target="_blank" href={props.array.repoSource}>Code</a>
                 </div>
             </div>
 
