@@ -1,10 +1,9 @@
-body{
-    background-color: #F2F2F2;
-    color: #4F4F4F;
-}
-
 body img{
     border-radius: 10px;
+}
+
+footer{
+    text-align: center;
 }
 .container{
     margin-top: 5vh;
@@ -13,13 +12,9 @@ body img{
     gap: 3vh;
 }
 
-.BasicInfoDiv, .skillDiv, .projectsDiv--titileDiv, .hobbiesDiv, .projectElementsDiv{
-    background-color: #FFFFFF;
+.elementStyle{
     border-radius: 12px;
 
-    -webkit-box-shadow: 2px 2px 15px -12px rgba(66, 68, 90, 1);
-    -moz-box-shadow: 2px 2px 15px -12px rgba(66, 68, 90, 1);
-    box-shadow: 2px 2px 15px -12px rgba(66, 68, 90, 1);
 }
 
 .gridContainer{
@@ -71,11 +66,9 @@ h6{
 }
 
 a{
-    color: #828282;
 }
 
 p{
-    color: #828282;
     font-size: 12px;
     line-height: 17px;
 }

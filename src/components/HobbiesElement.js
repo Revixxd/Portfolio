@@ -11,7 +11,7 @@ function HobbiesElement(props){
             </div>
             
 
-            <div className="hobbiesElement--infoDiv">
+            <div className="hobbiesElement--infoDiv ">
 
             <h3>{props.array.name}</h3>
             {/* <p>{props.array.desciption}</p> */}

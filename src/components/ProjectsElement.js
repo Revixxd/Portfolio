@@ -7,7 +7,7 @@ import "../styles/projectElements.css"
 function ProjectsElement(props){
 
     return(
-        <div className="projectElementsDiv">
+        <div className="projectElementsDiv elementStyle">
 
             <div className="projectElementsDiv--imgDiv">
 

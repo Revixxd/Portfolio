@@ -11,7 +11,7 @@ function BasicInfo(props){
 
 
     return(
-        <div className="BasicInfoDiv">
+        <div className="BasicInfoDiv elementStyle">
             <div className="BasicInfoDiv--ImageDiv">
                 <img alt = "photo" src={props.array.photoSrc} />
             </div>

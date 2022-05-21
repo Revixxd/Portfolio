@@ -15,7 +15,7 @@ function Skills(props){
 
     return(
         <div>
-            <div className="skillDiv">
+            <div className="skillDiv elementStyle">
                 <h2>{props.name}</h2>
                 <div className="skillDiv--skills">
                     {elements}

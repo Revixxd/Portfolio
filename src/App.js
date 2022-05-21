@@ -10,31 +10,43 @@ import Footer from "./components/Footer"
 
 import "./styles/app.css"
 
+import { ThemeProvider } from "styled-components";
+import {lightTheme, darkTheme, GlobalStyles} from "./components/darkmode/themes"
 
 function App() {
 
+  const[theme, setTheme] = React.useState("dark")
+
+  function changeTheme(){
+    theme === "light" ? setTheme("dark") : setTheme("light")
+  }
 
   return (
 
-    <div className="container">
+    <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
+      <GlobalStyles />
+      <button onClick={changeTheme}>Change Theme</button>
+      <div className="container">
 
-      <div className="gridContainer">
+        <div className="gridContainer">
 
-      <BasicInfo array = {data.basicInfo}/>
+        <BasicInfo array = {data.basicInfo}/>
 
-      <Skills name = "SKILLS" array = {data.skillsTech} />
-      <Skills name = "FRONT-END" array = {data.skillsFront} />
+        <Skills name = "SKILLS" array = {data.skillsTech} />
+        <Skills name = "FRONT-END" array = {data.skillsFront} />
 
-      <Projects array = {data.projects} />
-      {/* <Projects array = {data.projects} /> */}
+        <Projects array = {data.projects} />
+        {/* <Projects array = {data.projects} /> */}
 
-      <Hobbies array = {data.hobbies} />
+        <Hobbies array = {data.hobbies} />
 
-    </div>
+      </div>
 
-    <Footer />
-      
-    </div>
+      <Footer />
+        
+      </div>
+
+    </ThemeProvider>
 
   )
 }
