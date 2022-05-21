@@ -20,7 +20,7 @@ import {AiOutlineArrowDown} from 'react-icons/ai'
 function App() {
 
   //darkMode functions 
-  const[theme, setTheme] = React.useState("dark")
+  const[theme, setTheme] = React.useState("light")
 
   function changeTheme(){
     theme === "light" ? setTheme("dark") : setTheme("light")
