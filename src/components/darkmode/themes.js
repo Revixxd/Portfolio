@@ -31,6 +31,11 @@ export const GlobalStyles = createGlobalStyle`
             background-color: ${props => props.theme.elementsBackGround};
             box-shadow: ${props => props.theme.elementsShadow};
         }
+
+        .accessibilityDiv button{
+            border: solid 1px ${props => props.theme.mainColor};
+            color: ${props => props.theme.mainColor}
+        }
     }
 
     
