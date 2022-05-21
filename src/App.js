@@ -15,6 +15,8 @@ import "./styles/app.css"
 import { ThemeProvider } from "styled-components";
 import {lightTheme, darkTheme, GlobalStyles} from "./components/darkmode/themes"
 
+//icons
+import {AiOutlineArrowDown} from 'react-icons/ai'
 function App() {
 
   //darkMode functions 
@@ -28,9 +30,16 @@ function App() {
 
     <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
       <GlobalStyles />
-      <button onClick={changeTheme}>Change Theme</button>
-      <div className="container">
+      <div className="accessibilityDiv">
 
+        <button onClick={changeTheme}>Theme</button>
+        {/* <button >Language</button> */}
+        {/* <br></br>
+        <button><AiOutlineArrowDown /></button> */}
+
+      </div>
+      <div className="container">
+      
         <div className="gridContainer">
 
         <BasicInfo array = {data.basicInfo}/>

@@ -5,6 +5,24 @@ body img{
 footer{
     text-align: center;
 }
+
+.accessibilityDiv{
+    margin-top: 1vh;
+    /* border: solid black; */
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.accessibilityDiv button{
+    cursor: pointer;
+    background-color: transparent;
+    border: solid 1px ;
+    padding: 4px;
+    border-radius: 6px;
+
+}
+
 .container{
     margin-top: 5vh;
     display: flex;
