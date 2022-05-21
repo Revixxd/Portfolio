@@ -7,13 +7,11 @@ Project built on the basis of [devChallenges.io](https://devchallenges.io/challe
 ## Screenshots
 
 
-
-
 Desktop:
 ![App Screenshot](https://i.imgur.com/iBqdpuu.jpg)
 Mobile:
 <p align="center">
-  <img width="460" height="100%" src="https://i.imgur.com/Vee9Jeg.jpg">
+  <img width="460" height="100%" src="https://i.imgur.com/hafBVqQ.jpg">
 </p>
 
 ## Lessons Learned
@@ -22,11 +20,11 @@ During this project i learned how to use component property and using data from 
 
 ## Roadmap
 
-- Dark mode using [styling-components](https://styled-components.com)
-
-- animatons 
+- Animatons on Load
 
 - Adding languages accessibility 
+
+- Dark mode that depend on deafult system theme
 
 - Load data from github api for project component
 
