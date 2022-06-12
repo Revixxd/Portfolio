@@ -29,6 +29,6 @@ During this project i learned how to use component property and using data from 
 
 - Save darkMode when second Log
 
-~~- Load data from github api for project component~~
+- Load data from github api for project component
 
 - Adding Wakatime component (linked with wakatime api) to show coding time and languages
