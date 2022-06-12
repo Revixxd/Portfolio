@@ -15,8 +15,6 @@ import "./styles/app.css"
 import { ThemeProvider } from "styled-components";
 import {lightTheme, darkTheme, GlobalStyles} from "./components/darkmode/themes"
 
-//icons
-import {AiOutlineArrowDown} from 'react-icons/ai'
 function App() {
 
   //darkMode functions 
