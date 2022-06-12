@@ -1,16 +1,19 @@
 import React from "react"
 
-import ProjectsElementHash from "./ProjectElementHash"
-
 import "../styles/projectElements.css"
 
 function ProjectsElement(props){
+
+    const currentImg = `${props.array.repo}.jpg`
     return(
         <div className="projectElementsDiv elementStyle">
 
             <div className="projectElementsDiv--imgDiv">
 
-                <img className = "projectElementsDiv--img" alt="projectImg" src={props.array.image}></img>
+                <img className = "projectElementsDiv--img" alt="projectImg" 
+                src={currentImg && require(`../data/images/${currentImg}`)}>
+                    
+                </img>
 
             </div>
 
