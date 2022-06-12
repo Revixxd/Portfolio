@@ -16,6 +16,7 @@ import { ThemeProvider } from "styled-components";
 import {lightTheme, darkTheme, GlobalStyles} from "./components/darkmode/themes"
 
 
+
 function App() {
 
   //darkMode functions 
