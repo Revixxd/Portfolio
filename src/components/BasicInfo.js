@@ -2,13 +2,12 @@ import React from "react";
 import { GrMail } from 'react-icons/gr';
 import { BsFillTelephoneFill } from 'react-icons/bs';
 
-
-
+import importedData from "../data/data"
 
 import "../styles/basicInfo.css"
 
 function BasicInfo(){
-
+    const basicInfoData = importedData.basicInfo
     const [githubData, setGithubData] = React.useState([])
     async function fetchGithubData(){
         const response = await fetch(`https://api.github.com/users/revixxd`);
@@ -37,11 +36,11 @@ function BasicInfo(){
                 <div className="BasicInfoDiv__bottomInfo--contact" >
                     <div className="BasicInfoDiv__bottomInfo__contact--element">
                         <GrMail />
-                        <h5>{githubData.email}</h5>
+                        <h5>{basicInfoData.email}</h5>
                     </div>
                     <div className="BasicInfoDiv__bottomInfo__contact--element">
                         <BsFillTelephoneFill />
-                        <h5>668 244 841</h5>
+                        <h5>{basicInfoData.phoneNumber}</h5>
                     </div>
                     {/* <div className="BasicInfoDiv__bottomInfo__contact--element">
                         <BsFillTelephoneFill />
