@@ -7,16 +7,16 @@ import "../styles/skills.css"
 
 function Skills(props){
 
-    const elements = props.array.map(item =>{
+    const elements = props.array.map((item, i) =>{
         return (
-            <SkillsElement item = {item}/>
+            <SkillsElement key ={i} item = {item}/>
         )
     })
 
     return(
         <div>
             <div className="skillDiv elementStyle">
-                <h2>{props.name}</h2>
+                <h2>{props.name.toUpperCase()}</h2>
                 <div className="skillDiv--skills">
                     {elements}
                 </div>

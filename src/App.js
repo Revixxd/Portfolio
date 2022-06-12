@@ -15,6 +15,8 @@ import "./styles/app.css"
 import { ThemeProvider } from "styled-components";
 import {lightTheme, darkTheme, GlobalStyles} from "./components/darkmode/themes"
 
+
+
 function App() {
 
   //darkMode functions 
@@ -23,6 +25,8 @@ function App() {
   function changeTheme(){
     theme === "light" ? setTheme("dark") : setTheme("light")
   }
+
+
 
   return (
 
@@ -33,20 +37,19 @@ function App() {
         <button onClick={changeTheme}>Theme</button>
         {/* <button >Language</button> */}
         {/* <br></br>
-        <button><AiOutlineArrowDown /></button> */}
+        <button> test/></button> */}
 
       </div>
       <div className="container">
       
         <div className="gridContainer">
 
-        <BasicInfo array = {data.basicInfo}/>
+        <BasicInfo/>
 
-        <Skills name = "SKILLS" array = {data.skillsTech} />
-        <Skills name = "FRONT-END" array = {data.skillsFront} />
+        <Skills name = "skills" array = {data.skillsTech} />
+        <Skills name = "front-end" array = {data.skillsFront} />
 
-        <Projects array = {data.projects} />
-        {/* <Projects array = {data.projects} /> */}
+        <Projects />
 
         <Hobbies array = {data.hobbies} />
 
