@@ -5,14 +5,12 @@ import ProjectsElementHash from "./ProjectElementHash"
 import "../styles/projectElements.css"
 
 function ProjectsElement(props){
-
     return(
         <div className="projectElementsDiv elementStyle">
 
             <div className="projectElementsDiv--imgDiv">
 
-                <img className = "projectElementsDiv--img" alt="projectImg" src={props.array.imgSource}
-                ></img>
+                <img className = "projectElementsDiv--img" alt="projectImg" src={props.array.image}></img>
 
             </div>
 
@@ -28,7 +26,7 @@ function ProjectsElement(props){
                 <div className="projectElementsDiv__info--mainDescription">
 
                     <div className="projectElementsDiv__info__mainDescription--projectName">
-                        <h2>{props.array.projectName}</h2>
+                        <h2>{props.array.repo}</h2>
                     </div>
 
                     <div className="projectElementsDiv__info__mainDescription--description">
@@ -40,8 +38,8 @@ function ProjectsElement(props){
                 
 
                 <div className="projectElementsDiv__info--buttonsDiv" >
-                    <a className="projectElementsDiv__info__buttonsDiv-aElement" target="_blank" href={props.array.demoSource}>Demo</a>
-                    <a className="projectElementsDiv__info__buttonsDiv-aElement" target="_blank" href={props.array.repoSource}>Code</a>
+                    <a className="projectElementsDiv__info__buttonsDiv-aElement" target="_blank" href={props.array.website}>Demo</a>
+                    <a className="projectElementsDiv__info__buttonsDiv-aElement" target="_blank" href={props.array.link}>Code</a>
                 </div>
             </div>
 

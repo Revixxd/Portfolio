@@ -43,8 +43,8 @@ function App() {
     fetchPinnedFromProfile()
   }, [])
 
-  console.log(githubData)
-  console.log(pinnedRepos)
+  // console.log(githubData)
+  // console.log(pinnedRepos)
   return (
 
     <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
@@ -61,13 +61,12 @@ function App() {
       
         <div className="gridContainer">
 
-        <BasicInfo array = {data.basicInfo}/>
+        <BasicInfo array = {githubData}/>
 
         <Skills name = "SKILLS" array = {data.skillsTech} />
         <Skills name = "FRONT-END" array = {data.skillsFront} />
 
-        <Projects array = {data.projects} />
-        {/* <Projects array = {data.projects} /> */}
+        <Projects array = {pinnedRepos} />
 
         <Hobbies array = {data.hobbies} />
 

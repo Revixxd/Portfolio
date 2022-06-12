@@ -6,7 +6,15 @@ import "../styles/projects.css"
 
 function Projects(props){
 
-    
+    const allPinedProjects = props.array.map((element, i) =>{
+        if(element.repo === "C-C--exercises" || element.repo ==="Portfolio"){
+            return
+        }
+        
+        return(
+            <ProjectsElement key={i} array={element}/>
+        )
+    })
 
 
     return(
@@ -18,8 +26,7 @@ function Projects(props){
             </div>
 
             <div className = "projectsDiv--elements">
-                <ProjectsElement key = {props.array.edieHomePage.id} array={props.array.edieHomePage}/>
-                <ProjectsElement key = {props.array.interiorConsultant.id} array={props.array.interiorConsultant}/>
+                {allPinedProjects}
             </div>
             
         </div>
