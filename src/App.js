@@ -15,8 +15,7 @@ import "./styles/app.css"
 import { ThemeProvider } from "styled-components";
 import {lightTheme, darkTheme, GlobalStyles} from "./components/darkmode/themes"
 
-//icons
-import {AiOutlineArrowDown} from 'react-icons/ai'
+
 function App() {
 
   //darkMode functions 
@@ -26,6 +25,26 @@ function App() {
     theme === "light" ? setTheme("dark") : setTheme("light")
   }
 
+  const [githubData, setGithubData] = React.useState([])
+    async function fetchGithubData(){
+      const response = await fetch(`https://api.github.com/users/revixxd`);
+      const data = await response.json();
+      return setGithubData(data);
+  }
+  const [pinnedRepos, setPinnedRepos] = React.useState([])
+    async function fetchPinnedFromProfile(){
+      const response = await fetch(`https://gh-pinned-repos.egoist.sh/?username=revixxd`);
+      const data = await response.json();
+      return setPinnedRepos(data);
+  }
+
+  React.useEffect(() => {
+    fetchGithubData()
+    fetchPinnedFromProfile()
+  }, [])
+
+  console.log(githubData)
+  console.log(pinnedRepos)
   return (
 
     <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
