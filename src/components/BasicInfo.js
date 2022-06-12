@@ -7,24 +7,37 @@ import { BsFillTelephoneFill } from 'react-icons/bs';
 
 import "../styles/basicInfo.css"
 
-function BasicInfo(props){
+function BasicInfo(){
+
+    const [githubData, setGithubData] = React.useState([])
+    async function fetchGithubData(){
+        const response = await fetch(`https://api.github.com/users/revixxd`);
+        const data = await response.json();
+        return setGithubData(data);
+    }
+
+    React.useEffect(() => {
+        fetchGithubData()
+    }, [])
+    
+
 
     return(
         <div className="BasicInfoDiv elementStyle">
             <div className="BasicInfoDiv--ImageDiv">
-                <img alt = "photo" src={props.array.avatar_url} />
+                <img alt = "photo" src={githubData.avatar_url} />
             </div>
             <div className="BasicInfoDiv--bottomInfo">
 
                 <div className="BasicInfoDiv__bottomInfo--name" >
-                    <h1>{props.array.name}</h1>
+                    <h1>{githubData.name}</h1>
                     <h4>Future frontend developer 😎🤓</h4>
                 </div>
                 
                 <div className="BasicInfoDiv__bottomInfo--contact" >
                     <div className="BasicInfoDiv__bottomInfo__contact--element">
                         <GrMail />
-                        <h5>{props.array.email}</h5>
+                        <h5>{githubData.email}</h5>
                     </div>
                     <div className="BasicInfoDiv__bottomInfo__contact--element">
                         <BsFillTelephoneFill />

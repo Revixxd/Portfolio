@@ -15,12 +15,22 @@ function ProjectsElement(props){
             </div>
 
             <div className="projectElementsDiv--info">
+                
+                {props.array.language === "HTML" && 
+                    <div className="projectElementsDiv__info--hastag">
+                        <h6>#HTML</h6>
+                        <h6>#CSS</h6>
+                        <h6>#WebResponsive</h6>
+                    </div>
+                }
 
-                <div className="projectElementsDiv__info--hastag">
-                    <h6>#HTML</h6>
-                    <h6>#CSS</h6>
-                    <h6>#JavaScript</h6>
-                </div>
+                {props.array.language === "JavaScript" && 
+                    <div className="projectElementsDiv__info--hastag">
+                        <h6>#React</h6>
+                        <h6>#StyledComponents</h6>
+                        <h6>#WebResponsive</h6>
+                    </div>
+                }
 
 
                 <div className="projectElementsDiv__info--mainDescription">

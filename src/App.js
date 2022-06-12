@@ -25,26 +25,8 @@ function App() {
     theme === "light" ? setTheme("dark") : setTheme("light")
   }
 
-  const [githubData, setGithubData] = React.useState([])
-    async function fetchGithubData(){
-      const response = await fetch(`https://api.github.com/users/revixxd`);
-      const data = await response.json();
-      return setGithubData(data);
-  }
-  const [pinnedRepos, setPinnedRepos] = React.useState([])
-    async function fetchPinnedFromProfile(){
-      const response = await fetch(`https://gh-pinned-repos.egoist.sh/?username=revixxd`);
-      const data = await response.json();
-      return setPinnedRepos(data);
-  }
 
-  React.useEffect(() => {
-    fetchGithubData()
-    fetchPinnedFromProfile()
-  }, [])
 
-  // console.log(githubData)
-  // console.log(pinnedRepos)
   return (
 
     <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
@@ -61,12 +43,12 @@ function App() {
       
         <div className="gridContainer">
 
-        <BasicInfo array = {githubData}/>
+        <BasicInfo/>
 
         <Skills name = "SKILLS" array = {data.skillsTech} />
         <Skills name = "FRONT-END" array = {data.skillsFront} />
 
-        <Projects array = {pinnedRepos} />
+        <Projects />
 
         <Hobbies array = {data.hobbies} />
 
