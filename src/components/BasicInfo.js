@@ -24,7 +24,7 @@ function BasicInfo(){
     return(
         <div className="BasicInfoDiv elementStyle">
             <div className="BasicInfoDiv--ImageDiv">
-                <img alt = "photo" src={githubData.avatar_url} />
+                <img alt="avatar" src={githubData.avatar_url} />
             </div>
             <div className="BasicInfoDiv--bottomInfo">
 

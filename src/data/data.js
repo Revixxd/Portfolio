@@ -33,32 +33,3 @@ export default {
         }
         
 }
-    
-
-
-// tags:[
-                //     "#HTML",
-                //     "#CSS",
-                //     "#RESPONSIVE",
-                // ],
-                // imgSource: "",
-                // projectName:"",
-                // description:"",
-                // demoSource: "",
-                // repoSource: ""
-
-
-
-        //         ,
-        //     interiorConsultant:{
-        //     tags:[
-        //         "#HTML",
-        //         "#JAVASCRIPT",
-        //     ],
-        //     imgSource: "",
-        //     projectName:"Interior Consultant",
-        //     description:"",
-        //     demoSource: "https://revixxd.github.io/Interior-consultant/",
-        //     repoSource: "https://github.com/Revixxd/Interior-consultant"
-        //     },
-        //     

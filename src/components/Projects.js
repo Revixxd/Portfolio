@@ -19,7 +19,7 @@ function Projects(){
 
 
     const fillterData = pinnedRepos.filter(function(element){
-        return !(element.repo == "Portfolio" || element.repo == "C-C--exercises")
+        return !(element.repo === "Portfolio" || element.repo === "C-C--exercises")
     })
 
     const allPinedProjects = fillterData.map((element, i) =>{
