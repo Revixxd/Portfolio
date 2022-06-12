@@ -45,8 +45,8 @@ function App() {
 
         <BasicInfo/>
 
-        <Skills name = "SKILLS" array = {data.skillsTech} />
-        <Skills name = "FRONT-END" array = {data.skillsFront} />
+        <Skills name = "skills" array = {data.skillsTech} />
+        <Skills name = "front-end" array = {data.skillsFront} />
 
         <Projects />
 
