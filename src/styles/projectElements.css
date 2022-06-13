@@ -10,7 +10,8 @@
 
 
 .projectElementsDiv--img{
-    height: 150px;
+    width: 100%;
+    height: 8vw;
 }
 .projectElementsDiv--img img{
     max-width: 100%;
