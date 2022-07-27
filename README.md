@@ -1,7 +1,7 @@
 
 # Portfolio
 
-Project built on the basis of [devChallenges.io](https://devchallenges.io/challenges/5ZnOYsSXM24JWnCsNFlt) designe. I used the React framework, each visible element on the page is a separate component. Each information in component is passed from data.js.
+Project built on the basis of [devChallenges.io](https://devchallenges.io/challenges/5ZnOYsSXM24JWnCsNFlt) designe. I used the React framework, each visible element on the page is a separate component. For personal information component I used data passed from file, for project component I used github api to show my 4 latest favorite project.
 
 
 ## Screenshots
@@ -16,7 +16,7 @@ Mobile:
 
 ## Lessons Learned
 
-During this project i learned how to use component property and using data from JSON file
+During this project i learned how to use component property and using data from JSON file, and working on API data.
 
 ## Roadmap
 - Add Styled-components
