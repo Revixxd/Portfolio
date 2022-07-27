@@ -19,7 +19,6 @@ Mobile:
 During this project i learned how to use component property and using data from JSON file, and working on API data.
 
 ## Roadmap
-- Add Styled-components
 
 - Animatons on reload
 
@@ -29,6 +28,6 @@ During this project i learned how to use component property and using data from 
 
 - Save darkMode when second Log
 
-- Load data from github api for project component
-
 - Adding Wakatime component (linked with wakatime api) to show coding time and languages
+
+~~ - Load data from github api for project component ~~
