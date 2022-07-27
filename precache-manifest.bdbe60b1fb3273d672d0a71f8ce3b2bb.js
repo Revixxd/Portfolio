@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "a8ef47721ecb29571e2b",
-    "url": "/Portfolio/static/css/main.835049fa.chunk.css"
+    "revision": "2f198a9fd9b0b8609429",
+    "url": "/Portfolio/static/css/main.3810cddd.chunk.css"
   },
   {
-    "revision": "a8ef47721ecb29571e2b",
-    "url": "/Portfolio/static/js/main.a8ef4772.chunk.js"
+    "revision": "2f198a9fd9b0b8609429",
+    "url": "/Portfolio/static/js/main.2f198a9f.chunk.js"
   },
   {
-    "revision": "6d6233583aeda429c9e5",
-    "url": "/Portfolio/static/js/1.6d623358.chunk.js"
+    "revision": "cc851f7e85b5aefb0617",
+    "url": "/Portfolio/static/js/1.cc851f7e.chunk.js"
   },
   {
     "revision": "3b96116072eb85f5a3a2",
     "url": "/Portfolio/static/js/runtime~main.3b961160.js"
   },
   {
-    "revision": "01a99ffbf282b1ce2aac99b636287185",
-    "url": "/Portfolio/static/media/Edie-Homepage.01a99ffb.jpg"
+    "revision": "531de2ca500ab061a995683933974e3f",
+    "url": "/Portfolio/static/media/Edie-Homepage.531de2ca.jpg"
   },
   {
     "revision": "65ddb986e4f5458d599683fbd98d636f",
@@ -32,7 +32,7 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/windBnB.2fd9d262.jpg"
   },
   {
-    "revision": "2fccf03507cff86cef38f62947b12786",
+    "revision": "bfc322a4dc8bfffc2051e8979deee4be",
     "url": "/Portfolio/index.html"
   }
 ];
