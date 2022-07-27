@@ -7,17 +7,21 @@ import "../styles/projects.css"
 function Projects(){
 
     const [pinnedRepos, setPinnedRepos] = React.useState([])
+
+    //fetching data from api
     async function fetchPinnedFromProfile(){
         const response = await fetch(`https://gh-pinned-repos.egoist.sh/?username=revixxd`);
         const data = await response.json();
+        //data is imported repos
         return setPinnedRepos(data);
     }
 
+    // on first load set imported data from api to pinnedRepos
     React.useEffect(() => {
         fetchPinnedFromProfile()
     }, [])
 
-
+    //filtering repos to not show Portfolio repo and c exercises
     const fillterData = pinnedRepos.filter(function(element){
         return !(element.repo === "Portfolio" || element.repo === "C-C--exercises")
     })
