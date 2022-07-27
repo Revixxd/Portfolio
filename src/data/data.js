@@ -2,7 +2,7 @@ export default {
         basicInfo: {
             email:"Amyslicki2002@gmail.com",
             phoneNumber:"668 244 841",
-            desciption:"I am a first-year student of the Wrocław University of Technology. Currently, I am developing my skills, creating new website projects, knowledge of C ++ and React. I am characterized by skills such as teamwork, attention to detail and punctuality.",
+            desciption:"I am a second-year student of the Wrocław University of Technology. Currently, I am developing my skills, creating new website projects, knowledge of C ++ and React. I am characterized by skills such as teamwork, attention to detail and punctuality.",
         },
         skillsFront: [
             "HTML5",
