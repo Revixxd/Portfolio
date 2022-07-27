@@ -51,8 +51,8 @@ function ProjectsElement(props){
                 
 
                 <div className="projectElementsDiv__info--buttonsDiv" >
-                    <a className="projectElementsDiv__info__buttonsDiv-aElement" target="_blank" rel="noreferrer" href={props.array.website}>Demo</a>
-                    <a className="projectElementsDiv__info__buttonsDiv-aElement" target="_blank" rel="noreferrer" href={props.array.link}>Code</a>
+                    <a className="projectElementsDiv__info__buttonsDiv-aElement" target="_blank" rel="noopener noreferrer" href={props.array.website}>Demo</a>
+                    <a className="projectElementsDiv__info__buttonsDiv-aElement" target="_blank" rel="noopener noreferrer" href={props.array.link}>Code</a>
                 </div>
             </div>
 

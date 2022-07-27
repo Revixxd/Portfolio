@@ -8,9 +8,9 @@ function Footer(){
         <footer>
 
             <span> 
-                <a href="https://github.com/Revixxd" target="_blank" class="profileName">Created by <u>Revixxd</u></a>
+                <a href="https://github.com/Revixxd" class="profileName" target="_blank" rel="noopener noreferrer" >Created by <u>Revixxd</u></a>
                 </span> - <span>
-                <a href="https://devchallenges.io" target="_blank">devChallenges.io
+                <a href="https://devchallenges.io" target="_blank" rel="noopener noreferrer">devChallenges.io
                 </a>
             </span>
             

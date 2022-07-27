@@ -7,7 +7,7 @@ function HobbiesElement(props){
     return(
         <div className="hobbiesElement">
             <div className="hobbiesElement-imgDiv" >
-                <img alt = "photo" src={props.array.imgSource} />
+                <img alt="img" src={props.array.imgSource} />
             </div>
             
 

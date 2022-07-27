@@ -30,7 +30,8 @@ function BasicInfo(){
 
                 <div className="BasicInfoDiv__bottomInfo--name" >
                     <h1>{githubData.name}</h1>
-                    <h4>Future frontend developer 😎🤓</h4>
+                    <h4>Future frontend developer <span role="img" aria-label="faces">😎🤓</span></h4>
+                    
                 </div>
                 
                 <div className="BasicInfoDiv__bottomInfo--contact" >
