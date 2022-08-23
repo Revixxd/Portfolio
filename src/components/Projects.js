@@ -1,7 +1,7 @@
 import React from 'react'
 
 import ProjectsElement from './ProjectsElement'
-
+import Loading from './helper/loadingComponent/Loading'
 import '../styles/projects.css'
 
 function Projects() {
@@ -44,7 +44,7 @@ function Projects() {
             {elementIsLoading ? (
                 <div className="projectsDiv--elements">{allPinedProjects}</div>
             ) : (
-                <h1>LOADING</h1>
+                <Loading />
             )}
         </div>
     )
