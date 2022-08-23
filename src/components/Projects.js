@@ -15,7 +15,7 @@ function Projects() {
         )
         const data = await response.json()
         //data is imported repos
-        setELementIsLoading(false)
+        setELementIsLoading(true)
         return setPinnedRepos(data)
     }
 
@@ -40,7 +40,6 @@ function Projects() {
             <div className="projectsDiv--titileDiv elementStyle">
                 <h3>Projects ({Object.keys(fillterData).length})</h3>
             </div>
-
             {elementIsLoading ? (
                 <div className="projectsDiv--elements">{allPinedProjects}</div>
             ) : (
