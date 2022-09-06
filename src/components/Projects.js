@@ -1,7 +1,7 @@
 import React from 'react'
 
 import ProjectsElement from './ProjectsElement'
-import Loading from './helper/loadingComponent/Loading'
+import Loading from './loadingComponent/Loading'
 import '../styles/projects.css'
 
 function Projects() {

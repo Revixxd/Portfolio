@@ -1,6 +1,6 @@
 import React from 'react'
 
-import '../../../styles/loading.css'
+import '../../styles/loading.css'
 
 export default function Loading() {
     return (

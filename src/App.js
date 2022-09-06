@@ -1,7 +1,7 @@
 import React from 'react'
 
 //import data.js for infos
-import data from './data/data'
+import data from './data/personal-info'
 //Components import
 import BasicInfo from './components/BasicInfo'
 import Skills from './components/Skills'
