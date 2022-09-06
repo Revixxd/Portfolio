@@ -30,4 +30,4 @@ During this project i learned how to use component property and using data from 
 
 - ~~Save darkMode when second Log~~ (useLocalStorage hook use)
 
-~~ - Load data from github api for project component ~~
+- ~~Load data from github api for project component~~
