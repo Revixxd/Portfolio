@@ -2,6 +2,9 @@ import React from 'react'
 
 //import data.js for infos
 import data from './data/personal-info'
+
+//hooks
+import { useLocalStorage } from './custom-hooks/useLocaStorage'
 //Components import
 import BasicInfo from './components/BasicInfo'
 import Skills from './components/Skills'
@@ -21,7 +24,7 @@ import {
 
 function App() {
     //darkMode functions
-    const [theme, setTheme] = React.useState('light')
+    const [theme, setTheme] = useLocalStorage('theme', 'light')
 
     function changeTheme() {
         theme === 'light' ? setTheme('dark') : setTheme('light')
