@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "496c3472250022eee939",
-    "url": "/Portfolio/static/css/main.d465f5e1.chunk.css"
+    "revision": "765b47a48d58f57309ef",
+    "url": "/Portfolio/static/css/main.15a44b90.chunk.css"
   },
   {
-    "revision": "496c3472250022eee939",
-    "url": "/Portfolio/static/js/main.496c3472.chunk.js"
+    "revision": "765b47a48d58f57309ef",
+    "url": "/Portfolio/static/js/main.765b47a4.chunk.js"
   },
   {
-    "revision": "99982e6225814c6d0a5d",
-    "url": "/Portfolio/static/js/1.99982e62.chunk.js"
+    "revision": "a8b78c55a675791c500f",
+    "url": "/Portfolio/static/js/1.a8b78c55.chunk.js"
   },
   {
     "revision": "3b96116072eb85f5a3a2",
@@ -28,11 +28,15 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/to-do-list.388aa91e.jpg"
   },
   {
+    "revision": "b644ff97b09034f1378f1904939a7ffe",
+    "url": "/Portfolio/static/media/weather-app.b644ff97.jpg"
+  },
+  {
     "revision": "2fd9d262f3acb440c3fba4e2a9558db0",
     "url": "/Portfolio/static/media/windBnB.2fd9d262.jpg"
   },
   {
-    "revision": "1067eb1841c95e2418f35411d5ed754f",
+    "revision": "65147a9ab89c9db5799ba1dcb58134b3",
     "url": "/Portfolio/index.html"
   }
 ];
