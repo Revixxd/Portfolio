@@ -43,7 +43,7 @@ function App() {
                 <div className="gridContainer">
                     <BasicInfo />
 
-                    <Skills name="skills" array={data.skillsTech} />
+                    <Skills name="tech skills" array={data.skillsTech} />
                     <Skills name="front-end" array={data.skillsFront} />
 
                     <Projects />
