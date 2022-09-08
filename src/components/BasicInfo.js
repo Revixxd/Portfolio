@@ -55,7 +55,7 @@ function BasicInfo() {
                 </div>
                 <div className="BasicInfoDiv__bottomInfo--description">
                     <p>
-                        I am a first-year student of the Wrocław University of
+                        I am a second-year student of the Wrocław University of
                         Technology. Currently, I am developing my skills,
                         creating new website projects, knowledge of C ++ and
                         React. I am characterized by skills such as teamwork,
