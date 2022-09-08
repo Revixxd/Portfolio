@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "eda6f490b07c4c0bd036",
-    "url": "/Portfolio/static/css/main.15a44b90.chunk.css"
+    "revision": "a75049eb238caf56804e",
+    "url": "/Portfolio/static/css/main.c22a33b3.chunk.css"
   },
   {
-    "revision": "eda6f490b07c4c0bd036",
-    "url": "/Portfolio/static/js/main.eda6f490.chunk.js"
+    "revision": "a75049eb238caf56804e",
+    "url": "/Portfolio/static/js/main.a75049eb.chunk.js"
   },
   {
     "revision": "a8b78c55a675791c500f",
@@ -36,7 +36,7 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/windBnB.2fd9d262.jpg"
   },
   {
-    "revision": "44f697642eb5c1df1b020b6bbed4e064",
+    "revision": "92b413363c87ffb576b4a2ae3ca59447",
     "url": "/Portfolio/index.html"
   }
 ];
