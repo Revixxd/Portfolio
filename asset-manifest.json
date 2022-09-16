@@ -1,18 +1,18 @@
 {
   "main.css": "/Portfolio/static/css/main.c22a33b3.chunk.css",
-  "main.js": "/Portfolio/static/js/main.a75049eb.chunk.js",
-  "main.js.map": "/Portfolio/static/js/main.a75049eb.chunk.js.map",
+  "main.js": "/Portfolio/static/js/main.b7ccdd20.chunk.js",
+  "main.js.map": "/Portfolio/static/js/main.b7ccdd20.chunk.js.map",
   "static/js/1.a8b78c55.chunk.js": "/Portfolio/static/js/1.a8b78c55.chunk.js",
   "static/js/1.a8b78c55.chunk.js.map": "/Portfolio/static/js/1.a8b78c55.chunk.js.map",
   "runtime~main.js": "/Portfolio/static/js/runtime~main.3b961160.js",
   "runtime~main.js.map": "/Portfolio/static/js/runtime~main.3b961160.js.map",
   "static/media/Edie-Homepage.jpg": "/Portfolio/static/media/Edie-Homepage.531de2ca.jpg",
   "static/media/Recipe-Page.jpg": "/Portfolio/static/media/Recipe-Page.65ddb986.jpg",
-  "static/media/to-do-list.jpg": "/Portfolio/static/media/to-do-list.388aa91e.jpg",
+  "static/media/react-to-do-list.jpg": "/Portfolio/static/media/react-to-do-list.388aa91e.jpg",
   "static/media/weather-app.jpg": "/Portfolio/static/media/weather-app.b644ff97.jpg",
   "static/media/windBnB.jpg": "/Portfolio/static/media/windBnB.2fd9d262.jpg",
   "static/css/main.c22a33b3.chunk.css.map": "/Portfolio/static/css/main.c22a33b3.chunk.css.map",
   "index.html": "/Portfolio/index.html",
-  "precache-manifest.02088d19bd0f07be120d00170624279a.js": "/Portfolio/precache-manifest.02088d19bd0f07be120d00170624279a.js",
+  "precache-manifest.dca7f8c71094497393db0c5b85a15c80.js": "/Portfolio/precache-manifest.dca7f8c71094497393db0c5b85a15c80.js",
   "service-worker.js": "/Portfolio/service-worker.js"
 }
