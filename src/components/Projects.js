@@ -11,7 +11,7 @@ function Projects() {
     //fetching data from api
     async function fetchPinnedFromProfile() {
         const response = await fetch(
-            `https://gh-pinned-repos.egoist.sh/?username=revixxd`
+            `https://gh-pinned-repos.egoist.dev/?username=revixxd`
         )
         const data = await response.json()
         //data is imported repos
